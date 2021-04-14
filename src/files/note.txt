@@ -1,0 +1,100 @@
+SMR Project:
+	• Problem:
+		○ Strict deadline
+		○ Lots of monotonous work
+	• Solution:
+		○ Tried untraditional tracking
+		○ All work broken at granular level (up to 8 hours)
+ 
+	o Taken burning project mainly production support work involved. It was quite challenging as did not have any experience of handling production support project.
+ 
+Leadership Questions
+	o How did you handle people who don't co-operate?
+	o Tell me about a time you took a decision without all parameters in hand
+	o What types of issues are CIO’s facing in today’s technology oriented world
+		○ New security threats
+		○ Data protection
+		○ Skills gap
+		○ Multi cloud security
+		○ Innovation and digital transformation
+		○ Finding new revenue streams
+		○ Lack of agility
+
+ 
+· Delivering business outcomes for a customer’s digital transformations
+	o Digital transformation is the integration of digital technology into all areas of a business, fundamentally changing how you operate and deliver value to customers. It's also a cultural change that requires organizations to continually challenge the status quo, experiment, and get comfortable with failure.
+
+· Give me an example of a time you made a decision that was unpopular and explain how you handled implementing it.
+	o All PMs were sending status and maintaining project details in their own format
+		§ Got confluence template created and asked all the PMs to follow standard template for more uniform approach and standardization
+
+	o Tag FixVersion to each release and close it post deployment in JIRA to track cycle time
+		§ Automated using rest APIs and integrated with the CI/CD so that no manual efforts required
+
+· Share an example of how you were able to motivate a coworker, your peers or your team
+
+		 
+· Problem/Situation/Task:
+It is taking way longer to deliver anything to the end users. Pretty vague problem statement.
+	o Solution/Approach: 
+		§ Define or find out current baseline for cycle time
+		§ It turned out as 54 days
+		§ Did end to end process analysis to understand what is really taking more time 
+			· Development
+			· Environment provisioning
+			· Platform provisioning
+			· Build and Deployments
+			· Testing
+			· Change management process
+			· Value stream mapping
+		§ Automated
+			· Platform provisioning
+			· Build and deployments
+			· Testing
+		§ Optimized change management process
+	o Result:
+		§ Cycle time reduction – from 54 days to 12 days
+ 
+· Problem/Situation/Task:
+Customer was facing application downtime for frequently and hence having bad customer experience. 
+Environment uptime – from 70% to 99%
+	o Solution/Approach: 
+		§ Defined uniform way of measuring uptime across the function groups
+		§ Revisited critical application list, and it was 16 applications
+		§ When presented to management and business people, the list turned out stale and incomplete. The new list consists of 39 applications those need attention.
+		§ Introduced Web Application Curtain (WAC) to narrow down the impact. Earlier it was using Gone Fishing Page for everything.
+		§ Setup monitoring for all the applications using Nagios, MoogSoft and AppDynamics
+		§ Created recovery strategy and plan for all the apps
+		§ Changed the Incident management process to treat all the incidents for these apps as Priority 1
+		§ Problem ticket for all the incidents for these applications
+		§ Improved Mean Time To Resolve (MTTR) from 7 days to 3 days
+	o Result:
+		§ Environment uptime – from 70% to 99%
+
+· How you define "Success"
+	o I define success as meeting a combination of company and personal goals and helping my team do the same. I believe that effective goals motivate us to push ourselves and grow, and as a result of meeting such goals, we not only help the company by meeting its objectives, but we also become more effective employees that can contribute to even greater growth in the future. As a leader, I also want my team to feel capable of achieving their goals as well as the company’s objectives, so I make it a priority to personally help them meet individualized milestones.
+
+	o I evaluate success based not only on my work but also on the work of my team. In order for me to be considered successful, the team needs to achieve both our individual and our team goals.
+
+· Where do you see yourself in 5 years
+	o I’d love to be lead platform emerging at larger scale and get more expertise in areas I have limited exposure where I’ll get to think about long term strategy, particularly with respect to availability, resiliency and scalability.
+
+	I’m particularly interested in mobile, and I could see myself leading a team
+	of PMs and engineers on the mobile side. Additionally, I’m really excited
+	about the ways in which a company can help new employees ramp up faster.
+	I could see myself creating a more formal new employee training program
+	where employees get mentorship and training in different areas of the
+	business.
+
+· Leadership and Influence : 
+Sometimes you need to influence others without direct responsibility and not reporting to you directly. Some common tactics includes:
+	o Gathering data to support your conclusion.
+	o Understanding and addressing people’s underlying motivations or incentives.
+	o Developing support from key team members first and then leveraging that to get other people on your side.
+	o Showing your own vulnerability to encourage others to show theirs.
+	o Being a good role model or example.
+	o Gradually leading people to a conclusion by agreeing on a common framework first.
+	o Developing credibility and engendering trust.
+
+· Challenge:
+	o If we do automation, other group who is supporting task doing manual work will get revenue hit 
